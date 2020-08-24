@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-@SpringBootApplication(exclude = JtaAutoConfiguration.class)
+@SpringBootApplication
 @EnableSwagger2
 public class SubTableApplication {
 
