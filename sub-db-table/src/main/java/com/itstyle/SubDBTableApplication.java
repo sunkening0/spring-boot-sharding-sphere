@@ -8,12 +8,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-public class SubTableApplication {
+public class SubDBTableApplication {
 
-    private static final Logger logger = LoggerFactory.getLogger(SubTableApplication.class);
+    private static final Logger logger = LoggerFactory.getLogger(SubDBTableApplication.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(SubTableApplication.class, args);
-        logger.info("分表案例启动");
+        SpringApplication.run(SubDBTableApplication.class, args);
+        logger.info("分库分表案例启动");
     }
 }

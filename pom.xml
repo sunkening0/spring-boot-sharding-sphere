@@ -11,6 +11,7 @@
 
     <modules>
         <module>sub-table</module>
+        <module>sub-db-table</module>
     </modules>
 
     <parent>
