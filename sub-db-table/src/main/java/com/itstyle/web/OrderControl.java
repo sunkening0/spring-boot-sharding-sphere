@@ -24,7 +24,7 @@ public class OrderControl {
      */
     @PostMapping("/save")
     public void save(){
-        for(int i=0;i<10;i++){
+        for(int i=0;i<100;i++){
             OrderEntity entity = new OrderEntity();
             entity.setUserId(i);
             entity.setGoodsId(1000L);
